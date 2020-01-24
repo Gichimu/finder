@@ -1,0 +1,138 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+
+}
+
+.row {
+    width: 100%;
+    
+}
+
+#breadcrumb {
+    width: 100%;
+    padding: 2%;
+}
+
+#legend a, #account a {
+    text-decoration: none;
+    list-style: none;
+    display: block;
+}
+
+.col-md-3 {
+    border-right: 1px solid rgb(235, 229, 229);
+    padding-right: 3%;
+}
+
+.col-md-8 {
+    padding-left: 3%;
+}
+
+li{
+    list-style: none;
+}
+
+footer {
+    margin: 3%;
+}
+.radios {
+    padding: 5%;
+}
+
+.checked {
+    color: orange;
+}
+/* .signup {
+    margin: 5%;
+} */
+/* #border {
+    padding: 3%;
+} */
+/* #left {
+    position: fixed;
+    top:0px;
+    bottom:auto;
+    right:auto;
+    left:0px;   
+}  */
+
+.result a:hover {
+    background-color: gray;
+}
+
+#icons {
+    display: flex;
+    flex-direction: column;
+}
+#specs, #agent {
+    border: 1px solid rgb(228, 223, 223);
+    box-shadow: 5px 0px 10px 0px rgb(228, 223, 223);
+    padding: 5%;
+    margin: 5%;
+}
+
+#content {
+    padding: 2%;
+}
+
+#agent, #desc, #details {
+    margin-top: 8%;
+}
+#hse-img {
+    width: 90%;
+}
+
+.col-md-10 {
+}
+
+.header {
+    padding: 5px;
+}
+
+.col-md-4 {
+    
+    border-left: 1px solid rgb(235, 229, 229);
+}
+
+
+#profile-pic img {
+    width: 100%;
+}
+
+#contact {
+    width: 100%;
+}
+
+#recent-properties img {
+    width: 100%;
+    padding: 2%;
+}
+
+#btn-profile {
+    width: 100%;
+}
+
+/* layout.css Style */
+.upload-drop-zone {
+    height: 200px;
+    border-width: 2px;
+    margin-bottom: 20px;
+  }
+  
+  /* skin.css Style*/
+  .upload-drop-zone {
+    color: #ccc;
+    border-style: dashed;
+    border-color: #ccc;
+    line-height: 200px;
+    text-align: center
+  }
+  .upload-drop-zone.drop {
+    color: #222;
+    border-color: #222;
+  }
+
+
